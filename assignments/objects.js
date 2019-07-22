@@ -76,6 +76,7 @@ console.log(antonietta.gender);
 kennan.speak = function() {
   return "Hello, my name is " + this.name;
 };
+console.log(kennan.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
@@ -83,6 +84,7 @@ kennan.speak = function() {
 antonietta.multiplyNums = function(num1, num2) {
   return num1 * num2;
 };
+console.log(antonietta.multiplyNums(5,6));
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
